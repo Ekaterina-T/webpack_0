@@ -19,7 +19,7 @@
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _reformat__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reformat */ \"./src/reformat.js\");\n\n\n\nfunction test() {\n  var str = document.querySelector('#in').value;\n  document.querySelector('#out').value = (0,_reformat__WEBPACK_IMPORTED_MODULE_0__.reformat)(str);\n}\n\ndocument.querySelector('button').addEventListener('click', test);\n\n//# sourceURL=webpack://webpack_0/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _reformat__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reformat */ \"./src/reformat.js\");\n\n\n\n\nfunction test() {\n  var str = document.querySelector('#in').value;\n  document.querySelector('#out').value = (0,_reformat__WEBPACK_IMPORTED_MODULE_0__.reformat)(str);\n}\n\ndocument.querySelector('button').addEventListener('click', test);\n\n//# sourceURL=webpack://webpack_0/./src/index.js?");
 
 /***/ }),
 
