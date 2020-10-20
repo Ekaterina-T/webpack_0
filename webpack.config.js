@@ -13,7 +13,8 @@ const config = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        environment: { arrowFunction: false}
     },
 
     optimization: {
@@ -33,13 +34,12 @@ const config = {
 
     module: {
         rules: [
-            { 
-                test: /\.css$/i, 
-                use: [ 
+            {
+                test: /\.css$/i,
+                use: [
                     { loader: MiniCssExtractPlugin.loader},
-                    //{ loader: 'style-loader'/*, options: { injectType: 'linkTag' } */},
                     { loader: 'css-loader'}
-                ] 
+                ]
             },
             {
                 test: /\.m?js$/,
